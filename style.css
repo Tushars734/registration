@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing:border-box;
+
+    font-family:'poppins',sans-serif;
+
+}
+
+body{
+
+    display:flex;
+
+    height:100vh;
+
+    justify-content:center;
+
+    align-items:center;
+
+   
+
+    background: url("https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=");
+
+    background-size: cover;
+
+   background-repeat: no-repeat;
+
+}
+
+.container{
+
+    max-width: 700px;
+
+    width: 100%;
+
+    background:#fff;
+
+    padding:25px 30px;
+
+    border-radius:5px;
+
+    outline-style: dotted;
+
+ 
+
+}
+
+.container .title{
+
+    font-size: 25px;
+
+    font-weight:500;
+
+}
+
+ 
+
+.container form .user-details{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+}
+
+ 
+
+.user-details .input-box input{
+
+    height: 45px;
+
+    width:100%;
+
+   
+
+    border-radius: 5px;
+
+   
+
+    padding-left:15px;
+
+    font-size: 16px;
+
+    border-bottom-width: 2px;
+
+}
+
+   
+
+.form .rating-section{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.form .rating-section{
+
+    height: 50px;
+
+    width: 100%;
+
+    font-size: 18px;
+
+    background: #ccc;
+
+}
+.user-details.input-box input{
+    font-size:15px;
+    width:12rem;
+}
+
+
+
